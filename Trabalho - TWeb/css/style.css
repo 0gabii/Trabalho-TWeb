@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background: #003366;
+}
+
+.menu ul{
+    list-style: none;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    
+}
+
+.menu ul li a:hover{
+    color: white;
+    border-bottom: 3px solid gray;
+    text-decoration: underline;
+    background: #0055cc;
+}
+
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/c1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.text1{
+    text-align: center;
+    padding-top: 20%;
+}
+.text1 h1{
+    color: #003366;
+    font-size: 36px;
+} 
+.text1 p{
+    padding-top: 25px;
+    color: #272727;
+    font-size: 20px;
+}
+
+.sec2{
+    background-color: #f4f4f4;
+    width: 100%;
+    display: inline-block;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sec2 img{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    border: 10px;
+    object-fit: cover;
+}
+.cards{
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 52px;
+    
+}
+.cards h2{
+    color: #003366;
+    padding-top: 6px;
+}
+.cards p{
+    color: #555555;
+}
+.cards img {
+    width: 100%;
+    height: 67%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.sec3{
+    padding: 50px;
+}
+.img5{
+    display: inline-block;
+    width: 300px;
+}
+.img5 img{
+    width: 600px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.text5{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding-left: 330px;
+}
+.text5 h2{
+    color: #003366;
+}
+.text5 p{
+    color: #555555;
+    font-size: 18px;
+}
+
+.rodape{
+    background: #003366;
+}
+.rodape ul{
+    text-align: center;
+    list-style: none;
+}
+.rodape li{
+    display: inline-block;
+    padding: 10px;
+}
+.rodape ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    transition: background-color .15 ease;
+}
+.rodape ul li a:hover{
+    color: #cccccc;
+    border-bottom: 3px solid gray;
+}
